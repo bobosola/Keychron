@@ -11,7 +11,7 @@ Works on Macs, probably on PCs too (not tested).
 -	On the keyboard, hold `Fn` + `J` + `Z` keys to do a factory reset to clear out any previous custom key map file or custom settings (it will flash four times)
 - Install the [Keychron Launcher](https://launcher.keychron.com/) in Chrome (N.B: not currently working in Safari)
 - Use it to connect to the keyboard
--	In the Keychron Launcher, import the attached keycap file
+-	In the Keychron Launcher, import the attached keymap file
 - On the Mac: choose `British-PC` keyboard option in System Settings > Keyboard > Text Input > Edit > `+` button (bottom left)
 
 The keys should now be correct.
