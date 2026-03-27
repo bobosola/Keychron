@@ -19,7 +19,7 @@ The keys should now be correct.
 ## How to make a corrected keymap file:
 
 - Do a factory reset as above
-- Use the Keychron Launcher to make an export file of the default keycap file
+- Use the Keychron Launcher to make an export file of the default keymap file
 - Edit the file thus:
   - two occurrences of (Col 0, Row 1): change value from 53 to 100
   - two occurrences of (Col 1, Row 4): change value from 100 to 53
@@ -27,9 +27,10 @@ The keys should now be correct.
 - Paste it into any online MD5 maker site like [https://www.md5hashgenerator.com/](https://www.md5hashgenerator.com/)
 - Then paste the new MD5 value into the file at the very end to replace the original MD5 value
 
-The file should now import OK into the Keychron launcher and the reversed key issue should be fixed. 
+The edited file should now import OK into the Keychron launcher and the reversed key issue should be fixed. 
 
-NB: Without the MD5 change, the edited keymap file will be rejected by The Keychron Launcher. The MD5 value is presumably a checksum to ensure that the data is valid.
+> [!NOTE]
+> The new keymap file will be rejected by The Keychron Launcher if you try to skip the MD5 change. It is presumably a checksum to ensure that the data is valid.
 
 ## Back story
 
@@ -39,4 +40,4 @@ The LLM answered: `Based on the file content provided, I can see that the key ab
 Change 1 (Row 1, Col 0): Change value from 53 to 100
 Change 2 (Row 4, Col 1): Change value from 100 to 53`
 
-The MD5 fix idea was obtained from [Reddit](https://www.reddit.com/r/Keychron/comments/1j3zo08/manually_editing_json_layout_file_bypassing_md5/).
+The MD5 fix was obtained from a post on [Reddit](https://www.reddit.com/r/Keychron/comments/1j3zo08/manually_editing_json_layout_file_bypassing_md5/).
